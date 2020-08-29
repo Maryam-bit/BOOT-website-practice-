@@ -1,0 +1,200 @@
+
+html{scroll-behavior: smooth;}
+.navbar{
+    background-color: #f2bd5a;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    text-align:center;
+}
+.main-image{
+    background-image: url(../images/1.jpg);
+width: 100%;
+height: 573px;
+background-attachment: fixed;
+background-size: cover;
+}
+.main-image .img-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate((-50% , -50%));
+    /* left: 150px; */
+}
+.main-image .img-content p{
+font-size:12px;
+font-weight: 900;
+}
+.main-image .img-content h2{
+font-size:45px;
+font-weight: 900;
+}
+.main-image .img-content button{
+border-radius: 60px;
+padding-left:20px ;
+padding-right:20px ;
+padding-top: 7px;
+padding-bottom: 7px;
+font-size: 12px;
+letter-spacing: 1px;
+}
+.main-paragraph .heading , .category .heading , .new-headphone .heading , .why-us .heading , .contact-us .heading{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.main-paragraph .para{
+    font-size: 13px;
+    opacity: 0.7;
+    word-spacing: 3px;
+font-family: 'Ubuntu', sans-serif;
+line-height:23px;
+}
+
+
+/* category  */
+.category .heading{
+    margin-left: 12px;
+}
+.category .card .card-body{
+    background-color: #f0ca71;
+}
+.category .card{
+    position: relative;
+}
+.category  .card .card-type{
+background-color: #f0ca71;
+position: absolute;
+top: 10%;
+left: 18%;
+transform: translate(-50% , -50%);
+border: none;
+border-radius: 60px;
+padding: 10px;
+font-size:11px;
+color: black;
+width: 30%;
+}
+/* .category .card .card-body{ */
+/* position: relative; */
+/* bottom: 36px; */
+/* } */
+.category .card .card-body .card-heading{
+    font-family: 'Russo One', sans-serif;
+    font-size:13px;
+}
+.category .card .card-body .card-text{
+    color: white;
+font-family: 'Ubuntu', sans-serif;
+font-size:13px;
+font-weight: 400;
+}
+
+.pre-order{
+    background-color:#f2bd5a;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.pre-order .txt{
+    color: white;
+    font-size:14px ;
+}
+.pre-order .txt-heading{
+color: white;
+font-size:27px ;
+font-weight: 900;
+letter-spacing: 1px;
+/* font-family: 'Russo One', sans-serif; */
+}
+.pre-order button{
+border-radius:60px;
+padding-left: 20px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-right: 20px;
+font-size:12px;
+}
+.why-us .heading{
+    text-align:center;
+}
+.why-us .count{
+    font-size:55px ;
+    color: #f2bd5a;
+    font-weight: 900;
+}
+.why-us .on-text{
+position: relative;
+right: 80px;
+bottom: 12px;
+font-size:13px;
+font-weight: 800;
+}
+.why-us .main-text{
+font-size:13px;
+opacity: 0.7;
+}
+
+/* footer  */
+.footer{
+    box-shadow: 3px 0 10px lightgrey;
+    padding: 20px;
+}
+.footer img{
+    text-align:center;
+}
+.footer p{
+    text-align:center;
+    font-size:13px;
+    opacity: 0.7;
+}
+.footer .icons{
+    text-align:center;
+}
+.footer .fa{
+    width: 35px;
+    height: 35px;
+    background-color: #f2bd5a;
+    border-radius: 50%;
+    text-align: center;
+    line-height:35px;
+    color: white;
+    margin: 2px;
+}
+
+
+/* contact us  */
+.contact-us .container{
+    box-shadow: 5px 5px 5px 0 lightgrey;
+    padding: 50px;
+    text-align:center;
+    border-radius: 10px;
+}
+.contact-us .heading{
+    text-align:center;
+    letter-spacing: 3px;
+}
+.contact-us input , textarea{
+    width: 90%;
+    margin: 5px;
+    border: none;
+    border-bottom:2px solid #f2bd5a;
+    border-radius: 2px;
+    padding: 10px;
+    
+}
+.contact-us input::placeholder , textarea::placeholder{
+font-size: 13px;
+opacity: 0.7;
+}
+.contact-us input:focus , textarea:focus{
+outline: none;
+}
+@media (max-width:992px){
+    .why-us .one{
+        width: 50% !important;
+    }
+}
+@media (max-width:768px){
+    .category .card{
+    margin-bottom: 30px;
+}
+}
